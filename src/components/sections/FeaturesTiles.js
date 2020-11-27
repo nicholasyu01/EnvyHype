@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
+// import Image from '../elements/Image';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -38,10 +38,10 @@ const FeaturesTiles = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  const tilesClasses = classNames(
-    'tiles-wrap center-content',
-    pushLeft && 'push-left'
-  );
+  // const tilesClasses = classNames(
+  //   'tiles-wrap center-content',
+  //   pushLeft && 'push-left'
+  // );
 
   const sectionHeader = {
     title: 'Buy Shoes Clothes Slots',
