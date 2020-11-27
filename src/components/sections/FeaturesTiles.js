@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Buy Shoes Clothes Slots',
+    paragraph: 'We sell hype goods like supreme, nike, yeezys. We also sell slots for US and Canada drops.'
   };
 
   return (
@@ -56,7 +56,7 @@ const FeaturesTiles = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <div className={tilesClasses}>
+          {/* <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
@@ -190,7 +190,7 @@ const FeaturesTiles = ({
               </div>
             </div>
 
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
