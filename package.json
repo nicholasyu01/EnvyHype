@@ -2,7 +2,6 @@
   "name": "EnvyHype",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nicholasyu01.github.io/EnvyHype",
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
