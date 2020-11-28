@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import Image from '../elements/Image';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -48,13 +49,46 @@ const Testimonial = ({
     paragraph: 'We value your feedback!'
   };
 
+  const customHeader = {
+    title: 'Coming Soon',
+    
+  };
+
   return (
     <section
       {...props}
       className={outerClasses}
     >
-      <div className="container">
-        <div className={innerClasses}>
+      <div className={innerClasses}>
+      <SectionHeader data={customHeader} className="center-content" />
+        <div className={tilesClasses}>
+          <div className="tiles-item reveal-from-right" data-reveal-delay="200">
+            <Image
+              src={require('./../../assets/images/envy_tee_grey.PNG')}
+              alt="Features split 02"
+              width={528}
+              height={396} />
+          </div>
+
+          <div className="tiles-item reveal-from-bottom">
+            <Image
+              src={require('./../../assets/images/envy_ls.PNG')}
+              alt="Features split 02"
+              width={528}
+              height={396} />
+          </div>
+
+          <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+            <Image
+              src={require('./../../assets/images/envy_hoodie.PNG')}
+              alt="Features split 02"
+              width={528}
+              height={396} />
+          </div>
+        </div>
+      </div>
+      <div className={innerClasses}>
+        <div className="container">
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
@@ -96,7 +130,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Hit up @envyhype if you need supreme slots!
+                    — Can't wait to see what clothing is in store!
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">

@@ -119,13 +119,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Buy slots
+                  
                   </div>
                 <h3 className="mt-0 mb-12">
-                  We sell slots
+                Custom Clothing
                   </h3>
                 <p className="m-0">
-                  Looking to cop the latest hype drop? Let us help you and buy a slot from us!
+                Custom Envy Clothing made in your size and colors from T-shirts to hoodies
                   </p>
               </div>
               <div className={

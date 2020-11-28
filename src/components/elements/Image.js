@@ -8,7 +8,6 @@ const propTypes = {
   ]).isRequired,
   width: PropTypes.number,
   height: PropTypes.number,
-  border_radius: PropTypes.number,
   alt: PropTypes.string
 }
 
@@ -16,7 +15,6 @@ const defaultProps = {
   src: undefined,
   width: undefined,
   height: undefined,
-  border_radius: undefined,
   alt: undefined
 }
 
@@ -25,7 +23,6 @@ const Image = ({
   src,
   width,
   height,
-  border_radius,
   alt,
   ...props
 }) => {
@@ -51,11 +48,9 @@ const Image = ({
       placeholder.src = placeholderSrc(
         img.getAttribute('width') || 0,
         img.getAttribute('height') || 0,
-        img.getAttribute('border-radius') || 0
       );
       placeholder.width = img.getAttribute('width');
       placeholder.height = img.getAttribute('height');
-      placeholder.border_radius = img.getAttribute('border-radius');
       placeholder.style.opacity = '0';
       img.className && placeholder.classList.add(img.className);
       placeholder.remove();
@@ -76,7 +71,6 @@ const Image = ({
       width={width}
       height={height}
       alt={alt}
-      border_radius={border_radius}
       onLoad={onLoad} />
   );
 }
