@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Custom Clothing and Sneakers Tailored to You',
-    paragraph: 'Description: Brining you the best from the streetwear business with custom made clothing just for you and a wide array of sneakers.'
+    paragraph: 'Bringing you the best from the streetwear business with custom made clothing just for you and a wide array of sneakers.'
   };
 
   return (
