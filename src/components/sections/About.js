@@ -17,8 +17,8 @@ const About = ({
         <h1>About Us</h1>
         <div>EnvyHype LLC</div>
 
-        {/* <h3>Address</h3>
-        <div></div> */}
+        <h3>Address</h3>
+        <div>1309 Coffeen Ave Ste 1200, Sheridan, WY</div>
 
 
         <h3>Email</h3>
