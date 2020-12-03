@@ -15,12 +15,14 @@ const About = ({
     <section>
       <div className="container">
         <h1>About Us</h1>
-        <h3>Address</h3>
-        <div></div>
+        <div>EnvyHype LLC</div>
 
-        <h3>Phone</h3>
-        <div></div>
+        {/* <h3>Address</h3>
+        <div></div> */}
 
+
+        <h3>Email</h3>
+        <div>contact@envyhype.net</div>
         <Footer/>
       </div>
     </section>
