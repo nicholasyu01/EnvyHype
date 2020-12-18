@@ -5,7 +5,6 @@ import { SectionSplitProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import Footer from '../../components/layout/Footer';
 
-
 const About = ({
 
 }) => {
@@ -23,7 +22,6 @@ const About = ({
 
         <h3>Email</h3>
         <div>contact@envyhype.net</div>
-        <Footer/>
       </div>
     </section>
   );

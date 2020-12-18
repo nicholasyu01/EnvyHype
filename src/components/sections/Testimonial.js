@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -51,7 +52,10 @@ const Testimonial = ({
 
   const customHeader = {
     title: 'Coming Soon',
-    
+  };
+
+  const productsHeader = {
+    title: 'Products',
   };
 
   return (
@@ -60,7 +64,63 @@ const Testimonial = ({
       className={outerClasses}
     >
       <div className={innerClasses}>
-      <SectionHeader data={customHeader} className="center-content" />
+        <SectionHeader data={productsHeader} className="center-content" />
+        <div className={tilesClasses}>
+          <div className="tiles-item reveal-from-right" data-reveal-delay="200">
+            <Image
+              src={require('./../../assets/images/brazil.jpg')}
+              alt="Features split 02"
+              width={528}
+              height={396} />
+            <div>Nike Dunk Brazil $400</div>
+          </div>
+          <div className="tiles-item reveal-from-bottom">
+            <Image
+              src={require('./../../assets/images/blazer.jpg')}
+              alt="Features split 02"
+              width={528}
+              height={396} />
+            <div>Nike Blazer Cream White $160</div>
+
+          </div>
+          <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+            <Image
+              src={require('./../../assets/images/350 bred.jpg')}
+              alt="Features split 02"
+              width={528}
+              height={396} />
+            <div>Yeezy 350 Bred $400</div>
+
+          </div>
+          <div className="tiles-item reveal-from-right" data-reveal-delay="200">
+            <Image
+              src={require('./../../assets/images/500 black.jpg')}
+              alt="Features split 02"
+              width={528}
+              height={396} />
+            <div>Yeezy 500 Black $350</div>
+          </div>
+          <div className="tiles-item reveal-from-right" data-reveal-delay="200">
+            <Image
+              src={require('./../../assets/images/mocha.jpg')}
+              alt="Features split 02"
+              width={528}
+              height={396} />
+            <div>Air Jordan 1 Mocha $500</div>
+          </div>
+          <div className="tiles-item reveal-from-right" data-reveal-delay="200">
+            <Image
+              src={require('./../../assets/images/React.jpg')}
+              alt="Features split 02"
+              width={528}
+              height={396} />
+            <div>Nike React Element 87 Black $120</div>
+          </div>
+        </div>
+        <h5 className="center-content"><Link to="/products">See more</Link></h5>
+      </div>
+      <div className={innerClasses}>
+        <SectionHeader data={customHeader} className="center-content" />
         <div className={tilesClasses}>
           <div className="tiles-item reveal-from-right" data-reveal-delay="200">
             <Image

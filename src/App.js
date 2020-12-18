@@ -12,6 +12,7 @@ import Home from './views/Home';
 import TermsOfService from './components/sections/TermsOfService';
 import Privacy from './components/sections/Privacy';
 import About from './components/sections/About';
+import Products from './components/sections/Products';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -40,9 +41,10 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-          <AppRoute exact path="/terms" component={TermsOfService} />
-          <AppRoute exact path="/privacy" component={Privacy} />
-          <AppRoute exact path="/about us" component={About} />
+          <AppRoute exact path="/terms" component={TermsOfService} layout={LayoutDefault} />
+          <AppRoute exact path="/privacy" component={Privacy} layout={LayoutDefault}/>
+          <AppRoute exact path="/about us" component={About} layout={LayoutDefault}/>
+          <AppRoute exact path="/products" component={Products} layout={LayoutDefault}/>
         </Switch>
       )} />
   );

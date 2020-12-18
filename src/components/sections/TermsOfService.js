@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 // import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-import Footer from '../../components/layout/Footer';
 
 
 const TermsOfService = ({
@@ -15,7 +14,7 @@ const TermsOfService = ({
     <section>
       <div className="container">
         
-        <h1>Terms Of Service</h1>
+        <h1 style={{marginTop: 100}}>Terms Of Service</h1>
         <h3>OVERVIEW</h3>
         <div>This website is operated by EnvyHype LLC. Throughout the site, the terms “we”, “us” and “our” refer to EnvyHype LLC. EnvyHype LLC offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here.</div>
         <div>By visiting our site and/ or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and/ or contributors of content.</div>
@@ -112,7 +111,6 @@ const TermsOfService = ({
 
         <h3>CONTACT INFORMATION</h3>
         <div>Questions about the Terms of Service should be sent to us at contact@envyhype.net .</div>
-        <Footer/>
       </div>
     </section>
   );

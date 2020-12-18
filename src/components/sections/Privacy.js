@@ -14,7 +14,7 @@ const Privacy = ({
   return (
     <section>
       <div className="container">
-      <h1>PRIVACY POLICY</h1>
+      <h1 style={{marginTop: 100}}>PRIVACY POLICY</h1>
         <div>Your privacy is important to us. It is EnvyHype’s policy to respect your privacy regarding any information we may collect from you across our website, https://envyhype.net, and other sites we own and operate.</div>
         
         <h3>1. INFORMATION WE COLLECT</h3>
@@ -68,7 +68,6 @@ const Privacy = ({
         <h3>9. CHANGES TO THIS POLICY</h3>
         <div>At our discretion, we may change our privacy policy to reflect current acceptable practices. We will take reasonable steps to let users know about changes via our website. Your continued use of this site after any changes to this policy will be regarded as acceptance of our practices around privacy and personal information.</div>
         <div>If we make a significant change to this privacy policy, for example changing a lawful basis on which we process your personal information, we will ask you to re-consent to the amended privacy policy.</div>
-        <Footer/>
       </div>
     </section>
   );
