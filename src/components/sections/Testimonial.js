@@ -128,6 +128,7 @@ const Testimonial = ({
               alt="Features split 02"
               width={528}
               height={396} />
+            <div>Envy Tee $40</div>
           </div>
 
           <div className="tiles-item reveal-from-bottom">
@@ -136,6 +137,7 @@ const Testimonial = ({
               alt="Features split 02"
               width={528}
               height={396} />
+            <div>Envy Long Sleeve $45</div>
           </div>
 
           <div className="tiles-item reveal-from-left" data-reveal-delay="200">
@@ -144,6 +146,7 @@ const Testimonial = ({
               alt="Features split 02"
               width={528}
               height={396} />
+            <div>Envy Hoodie $60</div>
           </div>
         </div>
       </div>
@@ -161,10 +164,6 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">@roxlaverdiere_</span>
-                  {/* <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span> */}
                 </div>
               </div>
             </div>
@@ -178,10 +177,6 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">@ontherise.204</span>
-                  {/* <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span> */}
                 </div>
               </div>
             </div>
@@ -195,10 +190,6 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">@paulbrylle </span>
-                  {/* <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span> */}
                 </div>
               </div>
             </div>
